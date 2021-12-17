@@ -1,0 +1,72 @@
+/* CSS Document for Screens */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+
+#Page {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+/*Text*/
+h1 {
+  margin: 0 0 1em 0;
+  font-size: 2.8em;
+  font-weight: 700;
+}
+h2 {
+  margin: 0 0 0.5em 0;
+  font-size: 1.6em;
+  font-weight: 700;
+  line-height: 1.1em;
+}
+h3 {
+  margin: 0 0 0.5em 0;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+h4 {
+  margin: 0 0 1.5em 0;
+  font-size: 1em;
+  font-weight: 700;
+}
+p {
+  margin: 0 0 1em 0;
+}
+
+/* WOrking on body*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color:whitesmoke;
+  margin: 0px;
+  padding: 0px;
+ background-color: cadetblue;
+ background-image: url("C:/Users/hp/OneDrive/Desktop/Project/Count_Down_Timer/Timages/fireworks_explosions_sparks_215861_3840x2160.jpg");
+ background-position:center center ;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ flex-wrap: wrap;
+ margin-top: 200px;
+ 
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.big{
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+ 
+}
+.count{
+
+}
+
